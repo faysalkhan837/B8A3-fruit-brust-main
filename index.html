@@ -39,16 +39,10 @@
         border-radius: 50%;
         font-size: 18px;
       }
-      .res-mid{
-        grid-template-columns: repeat(2);
-        position: static;
-      }
+    
     </style>
     <!-- font ausome -->
-    <script
-      src="https://kit.fontawesome.com/9c55e2adb7.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/9c55e2adb7.js" crossorigin="anonymous"></script>
   </head>
   <body class="lato">
     <!-- Nav section start-->
@@ -65,6 +59,7 @@
               <li><a>All Fruits</a></li>
             </ul>
           </div>
+          <!-- centre -->
           <div class="navbar-end md:gap-7 sm:gap-1 justify-center">
             <img class="md:w-auto w-8" src="./images/logo.png" alt="" />
             <h1
@@ -955,7 +950,7 @@
         </div>
       </section>
       <!-- Meet the team section -->
-    <section>
+      <section>
 
       <div class="static md:relative lg:relative mt-10 max-w-full brightness-50">
             <img src="./images/team.png" class="bg-cover bg-center mx-auto " alt="">
@@ -1006,41 +1001,109 @@
          </div>
        </div>
       </div>
-    </section>
+      </section>
     <!-- Meet the team section end -->
+
     <!-- why chose us section -->
-       <section>
-        <div class="text-center">
+      <section>
+        <!-- Text -->
+        <div class="text-center my-12">
           <h1 class="font-extrabold text-5xl">Why Choose Us</h1>
-          <p class="font-medium text-base">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+          <p class="font-medium text-base mt-6">Contrary to popular belief, is not simply random text. It has roots in a piece of classical 
+            <br>Latin literature from 45 BC, making it over 2000 years old.</p>
         </div>
         <!-- Colmun section -->
-        <div class="grid grid-cols-3">
-          <div>
-            <div>
-              <div><i class="fa-solid fa-users fa-2xl"></i></div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+          <!-- Grid  1 -->
+          <div class="px-2 pt-4 space-y-12 ">
+            <!-- {L} part one -->
+            <div class="flex justify-center items-center gap-4">
+              <i class="fa-solid fa-users fa-2xl"></i>
               <div>
                 <h3 class="font-extrabold text-2xl">Dedicated Team</h3>
                 <p class="font-medium text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
               </div>
             </div>
+            <!-- {L} part two -->
+            <div class="flex justify-center items-center gap-4">
+              <i class="fa-solid fa-heart fa-2xl"></i>
+              <div>
+                <h3 class="font-extrabold text-2xl">Fresh is Best</h3>
+                <p class="font-medium text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+            </div>
+            <!-- {L} part three -->
+            <div class="flex justify-center items-center gap-4">
+              <i class="fa-solid fa-gifts fa-2xl"></i>
+              <div>
+                <h3 class="font-extrabold text-2xl">Gift Certificates</h3>
+                <p class="font-medium text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+            </div>
           </div>
-          <div>
+          <!-- Grid  2 -->
+          <div class="p-4">
             <img src="./images/whychoose1.png" alt="">
           </div>
-          <div>
-            <div class="flex justify-center items-center">
-              <div>
+          <!-- Grid  3 -->
+          <div class="px-2 pt-4 space-y-12">
+            <!-- {R} part one -->
+            <div class="flex justify-center items-center gap-4">
+              <div class="text-right">
                 <h3 class="font-extrabold text-2xl">Integrated Supplier</h3>
+                <p class="w-10 border-b-2 border-black border-solid"></p>
                 <p class="font-medium text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
               </div>
               <i class="fa-solid fa-carrot fa-2xl"></i>
             </div>
-            <div></div>
-            <div></div>
+            <!-- {R} part two -->
+            <div class="flex justify-center items-center gap-4">
+              <div class="text-right">
+                <h3 class="font-extrabold text-2xl">Sustainable Practice</h3>
+                <p class="font-medium text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+              <i class="fa-solid fa-ice-cream fa-2xl"></i>
+            </div>
+            <!-- {R part three} -->
+            <div class="flex justify-center items-center gap-4">
+              <div class="text-right">
+                <h3 class="font-extrabold text-2xl">The Benefits Only</h3>
+                <p class="font-medium text-base">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              </div>
+              <i class="fa-regular fa-thumbs-up fa-2xl"></i>
+            </div>
           </div>
         </div>
-       </section>
+      </section>
+        <!-- why chose us section end -->
     </main>
+    <!-- Footer section -->
+    <footer class="max-w-full max-h-[500px] bg-black pt-24 pb-20" >
+      <div class=" flex justify-center ">
+        <img class="md:w-auto w-8" src="./images/logo.png" alt="" />
+        <h1 class="font-extrabold md:text-5xl sm:text-3xl text-2xl md:text-white sm:text-[#121212]">
+          Fruit Burst
+        </h1>
+      </div>
+      <div class="flex justify-center text-white space-x-10 font-semibold text-lg">
+        <p>Home</p>
+        <p>About Us</p>
+        <p>Shop</p>
+        <p>All Fruits</p>
+        <p>Support</p>
+        <p>My Account</p>
+      </div>
+      <!-- Icons -->
+      <div class="space-x-10 ">
+        <i class="fa-brands fa-square-twitter fa-2xl"></i>
+        <i class="fa-brands fa-facebook fa-2xl"></i>
+        <i class="fa-brands fa-youtube fa-2xl" ></i>
+        <i class="fa-brands fa-linkedin fa-2xl"></i>
+        <i class="fa-brands fa-instagram fa-2xl"></i>
+        <i class="fa-brands fa-apple fa-2xl" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-apple fa-2xl"></i>
+      </div>
+
+    </footer>
   </body>
 </html>
